@@ -1,0 +1,104 @@
+   
+ :root {
+  --bg: #282a36;
+  --outline: #bd93f9;
+  --link: #747999;
+  --title: #99a2bf;
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  /*border-bottom: 1px solid var(--white);*/
+  color: var(--link);
+  white-space: nowrap;
+  margin: 3px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--title);
+}
+
+.fcontainer {
+  display: flex;
+}
+
+.fcenter {
+  justify-content: center;
+  align-items: center;
+}
+
+.fcol {
+  flex-direction: column;
+}
+
+.frow {
+  flex-direction: row;
+}
+
+.fwrap {
+  flex-wrap: wrap;
+}
+
+.fnowrap {
+  flex-wrap: nowrap;
+}
+
+.fgrow {
+  flex-grow: 1;
+}
+
+.outline {
+  outline: var(--outline) solid 2px;
+}
+
+.title {
+  text-align: center;
+  color: var(--title);
+  font-size: 30px;
+  padding: 10px;
+}
+
+.inlinelink {
+  display: inline-block;
+}
+
+.linkpad {
+  padding: 0px;
+  margin: 0px;
+  margin-right: -4px;
+}
+
+.floating {
+  margin: 10px;
+  padding: 10px;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.margin {
+    margin: 10px;
+}
+
+.padding2 {
+    padding: 20px;
+}
+
+.margin2 {
+    margin: 20px;
+}
