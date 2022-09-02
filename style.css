@@ -38,7 +38,7 @@ a:hover {
 
 .fcontainer {
   display: flex;
-  background-color: blue
+  /*background-color: blue;*/
 }
 
 .fcenter {
@@ -48,12 +48,12 @@ a:hover {
 
 .fcolumn {
   flex-direction: column;
-  background-color: red;
+  /*background-color: red;*/
 }
 
 .frow {
   flex-direction: row;
-  background-color: green;
+  /*background-color: green;*/
 }
 
 .fwrap {
@@ -71,13 +71,14 @@ a:hover {
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: purple;
+  background-color: var(--bg);
   z-index: 100;
   position: fixed;
   top: 0;
   width: 100%;
   height: 3em;
   align-items: center;
+  outline: var(--outline) 2px solid;
 }
 
 .card {
@@ -103,6 +104,10 @@ a:hover {
 .title {
   color: var(--title);
   font-size: 30px;
+}
+
+.text {
+  color: var(--title);
 }
 
 .padright {
