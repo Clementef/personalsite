@@ -36,6 +36,12 @@ a:hover {
   margin-top: 2em;
 }
 
+.fcartimg {
+  max-width: 30%;
+  max-height: 15em;
+  flex-basis: fit-content;
+}
+
 .fcontainer {
   display: flex;
   /*background-color: blue;*/
@@ -81,6 +87,10 @@ a:hover {
   outline: var(--outline) 2px solid;
 }
 
+.fspace {
+  justify-content: space-between;
+}
+
 .card {
   width: 90%;
   max-width: 30em;
@@ -104,6 +114,10 @@ a:hover {
 .title {
   color: var(--title);
   font-size: 30px;
+}
+
+.textcenter {
+  text-align: center;
 }
 
 .text {
